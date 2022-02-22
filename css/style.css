@@ -152,7 +152,7 @@ on diffrent interval using keyframe*/
   text-decoration: none;
 }
 .section {
-  min-height: 100vh;
+  min-height: 70vh;
 }
 .section-left {
   display: grid;
@@ -225,6 +225,9 @@ on diffrent interval using keyframe*/
 }
 .uncommon {
   font-family: "Gris";
+}
+.vesit {
+  font-family: "Girls";
 }
 .hacks {
   font-family: "Las";
@@ -439,6 +442,16 @@ on diffrent interval using keyframe*/
     color: white;
     margin-top: 100px;
   }
+  .vesit {
+    font-size: 6vw;
+    color: white;
+    margin-top: -15%;
+    margin-left: 75%;
+    text-align: right;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .hacks {
     font-size: 9.5vw;
     margin-top: -6vw;
@@ -528,9 +541,16 @@ on diffrent interval using keyframe*/
   .uncommon {
     font-size: 3em;
     color: white;
-    text-align: right;
+    text-align: center;
     margin-top: 50px;
   }
+  .vesit {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+  }
+
   .hacks {
     font-size: 4em;
     margin-top: -20px;
@@ -544,7 +564,7 @@ on diffrent interval using keyframe*/
   }
   .year {
     font-size: 4em;
-    text-align: right;
+    text-align: center;
     color: white;
   }
   #year {
