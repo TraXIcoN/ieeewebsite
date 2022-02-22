@@ -1,0 +1,331 @@
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+h1 {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Exo;
+}
+#particles-js {
+  z-index: -1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url(./fonts/Exo2.0-Medium.otf);
+}
+
+.glow {
+  text-shadow: 0 0 4px rgb(5, 167, 241), 0 0 6px rgb(7, 150, 150),
+    0 0 10px #5ec3e2, 0 0 10px #0073e6, 0 0 20px #022c57, 0 0 15px #572ad3,
+    0 0 18px #4805c5;
+}
+
+.glow2 {
+  font-family: "Neon";
+  width: 100%;
+  height: 20vh;
+  text-shadow: 0 0 4px rgb(212, 111, 150), 0 0 6px rgb(175, 66, 130),
+    0 0 10px #b31954, 0 0 10px #bb1057, 0 0 20px #800940, 0 0 15px #831335,
+    0 0 18px #660324;
+  padding-top: 20px;
+}
+
+.glow1 {
+  font-family: "Neon";
+  width: 100%;
+  height: 20vh;
+  text-shadow: 0 0 4px rgb(216, 126, 156), 0 0 6px rgb(7, 150, 150),
+    0 0 10px #5ec3e2, 0 0 10px #0073e6, 0 0 20px #022c57, 0 0 15px #572ad3,
+    0 0 18px #4805c5;
+}
+
+.glow3 {
+  text-shadow: 0 0 4px rgb(81, 167, 179), 0 0 6px rgb(7, 150, 150),
+    0 0 10px #5ec3e2, 0 0 10px #256e7a, 0 0 20px #0a4446, 0 0 15px #073158,
+    0 0 18px #03283d;
+}
+
+.row {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.row1 {
+  width: auto;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.row2 {
+  width: auto;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.profile-card {
+  position: relative;
+  font-family: sans-serif;
+  width: 220px;
+  height: 220px;
+  background: rgb(3, 24, 61);
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: 0.6s;
+  margin: 0 25px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.profile-card3 {
+  position: relative;
+  font-family: sans-serif;
+  width: 220px;
+  height: 220px;
+  background: rgb(6, 84, 87);
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: 0.6s;
+  margin: 0 25px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.profile-card2 {
+  position: relative;
+  font-family: sans-serif;
+  width: 220px;
+  height: 220px;
+  background: rgb(53, 1, 40);
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: 0.6s;
+  margin: 0 25px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.profile-card:hover {
+  position: relative;
+  border-radius: 10px;
+  height: 260px;
+  padding: 30px;
+}
+
+.profile-card2:hover {
+  border-radius: 10px;
+  height: 260px;
+}
+.profile-card3:hover {
+  position: relative;
+  border-radius: 10px;
+  height: 260px;
+  padding: 30px;
+}
+
+.profile-card .img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: 0.6s;
+  z-index: 99;
+}
+
+.profile-card2 .img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: 0.6s;
+  z-index: 99;
+}
+.profile-card3 .img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: 0.6s;
+  z-index: 99;
+}
+
+.profile-card:hover .img {
+  transform: translateY(-60px);
+}
+
+.profile-card2:hover .img {
+  transform: translateY(-60px);
+}
+.profile-card3:hover .img {
+  transform: translateY(-60px);
+}
+
+.img img {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: 0.6s;
+}
+
+.profile-card:hover img {
+  position: relative;
+  align-self: auto;
+  border-radius: 10px;
+  padding: 10%;
+}
+
+.profile-card2:hover img {
+  position: relative;
+  align-self: auto;
+  border-radius: 10px;
+  padding: 10%;
+}
+
+.profile-card3:hover img {
+  position: relative;
+  align-self: auto;
+  border-radius: 10px;
+  padding: 10%;
+}
+
+.caption {
+  text-align: center;
+  transform: translateY(-80px);
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.caption2 {
+  text-align: center;
+  transform: translateY(-80px);
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.caption3 {
+  text-align: center;
+  transform: translateY(-80px);
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.profile-card:hover .caption {
+  opacity: 1;
+}
+
+.profile-card2:hover .caption2 {
+  opacity: 1;
+}
+
+.profile-card3:hover .caption3 {
+  opacity: 1;
+}
+
+.caption h3 {
+  font-size: 21px;
+  color: #f8fbff;
+  font-family: sans-serif;
+}
+
+.caption2 h3 {
+  font-size: 21px;
+  color: #f8fbff;
+  font-family: sans-serif;
+}
+.caption3 h3 {
+  font-size: 21px;
+  color: #f8fbffe7;
+  font-family: sans-serif;
+}
+
+.caption p {
+  font-size: 16px;
+  color: #4591e9;
+  font-family: sans-serif;
+  margin: 2px 0 9px 0;
+}
+
+.caption2 p {
+  font-size: 16px;
+  color: #aa57bb;
+  font-family: sans-serif;
+  margin: 2px 0 9px 0;
+}
+
+.caption3 p {
+  font-size: 16px;
+  color: #61cccc;
+  font-family: sans-serif;
+  margin: 2px 0 9px 0;
+}
+
+.caption .social-links a {
+  color: rgb(81, 163, 201);
+  margin: center;
+  font-size: 21px;
+  transition: 0.6s;
+}
+
+.caption2 .social-links2 a {
+  color: rgb(196, 70, 122);
+  margin: center;
+  font-size: 21px;
+  transition: 0.6s;
+}
+
+.caption3 .social-links3 a {
+  color: rgb(0, 0, 0);
+  margin: center;
+  font-size: 21px;
+  transition: 0.6s;
+}
+
+.social-links a:hover {
+  color: #4b8edb;
+}
+
+.social-links2 a:hover {
+  color: #db7ea2;
+}
+
+.social-links3 a:hover {
+  color: #ffffff;
+}

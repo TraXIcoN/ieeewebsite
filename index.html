@@ -4,7 +4,7 @@
     <title>IEEE VESIT</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css?family=Lato"
       rel="stylesheet"
@@ -34,26 +34,25 @@
       content="April 2-4, 2021 - A weekend-long celebration of technology where college and high school students from everywhere come to the interwebs to make fun, random, and innovative tech-related projects."
     />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
-    <script defer src="script.js"></script>
+    <script defer src="js/script.js"></script>
     <audio id="rainSounds" src="./sounds/rain.wav"></audio>
     <audio id="neonSounds" src="./sounds/neon.flac"></audio>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="css/nav.css" />
   </head>
   <body>
-    <nav>
-      <input type="checkbox" id="check">
+        <nav>
+      <input type="checkbox" id="check" />
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
       <label class="logo">IEEE VESIT</label>
       <ul>
-        <li><a class="live" href="#">HOME</a></li>
-        <li><a href="#">EVENTS</a></li>
-        <li><a href="#">OUR COUNCIL</a></li>
-        <li><a href="#">IEEE TV</a></li>
-        <li><a href="#">SPONSERS</a></li>
-        <li><a href="#">CONTACT US</a></li>
+        <li><a class="live" href="index.html">HOME</a></li>
+        <li><a href="./EVENTS_new.html">EVENTS</a></li>
+        <li><a href="./council.html">OUR COUNCIL</a></li>
+        <li><a href="ieeetv.html">IEEE TV</a></li>
       </ul>
     </nav>
     <!-- <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://www.google.com/url?sa=i&url=https%3A%2F%2F1000logos.net%2Fieee-logo%2F&psig=AOvVaw3H-Ht-rWO9rCqSQ1XOEUKH&ust=1643967112335000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLD-nfuc4_UCFQAAAAAdAAAAABAD" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-white.svg" alt="Major League Hacking 2021 Hackathon Season" style="width:100%"></a> -->
@@ -62,7 +61,7 @@
         <div class="col-sm-9 invisible"></div>
         <div class="col-sm-3">
           <div class="uncommon glow">IEEE</div>
-          <div class="uncommon glow" style="margin-top: -35%; margin-left: 155%">
+          <div class="uncommon glow" style="margin-top: -15%; margin-left: 75%">
             VESIT
           </div>
           <div class="year glow glitch">2022</div>
@@ -300,11 +299,11 @@
         <div class="title glow abt">members</div>
         <br/>
         <div class="otherinfo">
-          <span id="meetTeam" class ="subinfo subnonintro scheduleinfo members-link" > meet the team behind Uncommon Hacks 2021 </span><a class ="subinfo subnonintro members-link" href="https://uncommonhacks.github.io/team2021/" />here</a>
+          <span id="meetTeam" class ="subinfo subnonintro scheduleinfo members-link" > Meet the Website team at IEEE VESIT  </span>
         </div>
       </div>
       <div >
-        <img id="headshots" class="headshots" src="img/headshots/angelaSerious.png"/>
+        <img id="headshots" class="headshots" src="images/Abhijit Thikekar_Senior Treasurer_D17A.jpg"/>
       </div>
     </div>
     
@@ -312,15 +311,13 @@
       <div id="sponsor-content">
         <!-- gold -->
         <div id="sponsor-title" class="title glow abt">sponsors</div>
-        <a href="https://cdac.uchicago.edu/" target="_blank">
-          <img
+         <img
             class="sponsor-img shadowfilter"
             id="sponsor-jpm"
             src="img/sponsors/new/ibs.jpeg"
           />
         </a>
-        <a href="https://careers.imc.com/us/en" target="_blank">
-          <img
+         <img
             class="sponsor-img shadowfilter"
             id="sponsor-silver"
             src="img/sponsors/new/golden_shawarmuh.jpeg"
@@ -328,8 +325,7 @@
         </a>
         <!-- silver -->
         <br />
-        <a href="https://www.treatmyocd.com/about-us/careers" target="_blank">
-          <img
+         <img
             class="sponsor-img shadowfilter"
             id="sponsor-silver"
             src="img/sponsors/new/fusion.jpeg"
@@ -337,9 +333,8 @@
           />
         </a>
         <a
-          href="https://www.microsoft.com/en-us/teals"
           target="_blank"
-          style="padding-top: 0px, padding-bottom 0px;"
+          style="padding-top: 0px, padding-bottom: 0px;"
         >
           <img
             class="shadowfilter"
@@ -350,43 +345,37 @@
         <br />
         <br />
         <!-- bronze -->
-        <a href="https://www.fleetcor.com/careers/" target="_blank">
-          <img
+         <img
             class="sponsor-img strokefilter"
             id="sponsor-bronze"
             src="img/sponsors/new/wok.jpeg"
           />
         </a>
-        <a href="https://www.nowpow.com/careers/" target="_blank">
-          <img
+         <img
             class="sponsor-img strokefilter"
             id="sponsor-bronze-2"
             src="img/sponsors/new/eat_play_love.jpeg"
           />
         </a>
-        <a href="https://angel.co/company/echoar/jobs" target="_blank">
-          <img
+         <img
             class="sponsor-img strokefilter"
             id="sponsor-bronze-2"
             src="img/sponsors/new/dhadhoom.jpeg"
           />
         </a>
-        <a href="https://chicagostudentloans.com/careers" target="_blank">
-          <img
+         <img
             class="sponsor-img strokefilter"
             id="sponsor-bronze-3"
             src="img/sponsors/am.png"
           />
         </a>
-        <a href="http://repl.it/" target="_blank">
-          <img
+         <img
             class="sponsor-img strokefilter"
             id="sponsor-bronze-4"
             src="img/sponsors/replit.png"
           />
         </a>
-        <a href="https://www.stickermule.com/about" target="_blank">
-          <img
+         <img
             class="sponsor-img strokefilter"
             id="sponsor-bronze-4"
             src="img/sponsors/stickermule.png"
